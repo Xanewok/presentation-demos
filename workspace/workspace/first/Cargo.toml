@@ -1,0 +1,7 @@
+[package]
+name = "first"
+version = "0.1.0"
+authors = ["Igor Matuszewski <xanewok@gmail.com>"]
+
+[dependencies]
+second = { path = "../second" }
