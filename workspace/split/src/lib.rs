@@ -12,11 +12,3 @@ pub fn do_something_complicated(pair: IntPair) -> IntPair {
     // Let's just pretend we work really hard.
     pair
 }
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
